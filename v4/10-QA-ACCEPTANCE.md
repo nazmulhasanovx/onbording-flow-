@@ -18,9 +18,9 @@ Status: Test PLAN, not a record of completed tests. Each ID should become an exe
 - ACC-04 Apartment Studio can have zero separate bedrooms + bed in shared space.
 - ACC-05 Tower A 101 and Tower B 101 cannot collide as full Unit code; TA-101/TB-101 valid.
 - ACC-06 Saved Location and Category reused on later additions; no repeated property-wide fields.
-- ACC-07 100+ floors, custom prefixes/aliases, manual codes and exact bulk preview work.
+- ACC-07 100+ floors, custom prefixes/aliases, manual codes and sequential Save & Add Next, without auto-generating missing Units.
 - ACC-08 Same category/gallery video inherited; Unit-level override/hide retained; URL validation rejects unsafe hosts.
-- ACC-09 Concurrent bulk actions cannot create duplicate ID; no partial transaction without clear result.
+- ACC-09 Concurrent individual draft Unit saves cannot create duplicate ID; failed save preserves input and doesn't silently create a Unit.
 - ACC-10 Changing booked Unit or its location requires impact review; all reservation references preserved.
 - ACC-11 Room-only HMS navigation says Rooms; mixed type says Accommodations; guest app says Stays.
 - ACC-12 Empty inventory, invalid category, missing location and over capacity show actionable errors.
