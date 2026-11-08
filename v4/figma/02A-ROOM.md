@@ -15,17 +15,17 @@ P02-01 / Room / Preset
  -> P02-04 / Room / New Deluxe Twin Category
  -> P02-05 / Room / Twin Beds & Occupancy
  -> P02-06 / Room / Gallery Cover & Highlights
- -> P02-07 / Room / Floor 1 / select [101,103,105]
+ -> P02-07 / Room / Floor 1 / Save 101, Save 103, Save 105 one by one
  -> P02-08 / Room / Price + optional room notes
  -> P02-09 / Room / Review exactly 3 -> Create
  -> P02-03 / Room / 3 units saved
- -> repeat fast flow: Existing Deluxe Twin -> Floor 2 -> [201,203] -> Review
+ -> repeat fast flow: Existing Deluxe Twin -> Floor 2 -> Save 201 then 203 -> Review
 ~~~
 
 ## Distinct Room UI requirements
 - On Floor selector, if one building exists auto-select Main; if multiple show Building select; if category floorless strategy configured do not force Floor.
 - Room 101 and Room 103 remain separate one-unit bookables; skipping 102 is valid.
-- Bulk unit builder shows exact selected list. If 103 already exists, show "Room 103 already exists in this property" without silently saving a partial batch.
+- Guided Unit Entry saves one real draft Room at a time and keeps Category/Floor selected. If 103 exists, show "Room 103 already exists in this property" without adding anything; preserve the entered number for correction.
 - Later numbering rules/Building name edits with existing booked rooms show impact warning, not immediate destructive changes.
 - Optional room view/accessible amenities flags; never equate Suite bedroom count to physical Unit count.
 - Display dynamic sidebar label "Accommodations" if Cottage also enabled; "Rooms" for Room-only property.

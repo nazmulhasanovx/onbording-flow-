@@ -11,7 +11,7 @@ Build ONE reusable Accommodation engine and wizard components, not Room/Cottage/
 **P02-04 / Wizard: type + category**: choose enabled type; existing saved category fast path versus Create New. Include recommended simple category names.
 **P02-05 / Wizard: category details**: name, style/config, adults/children, bed types/count, bathrooms/size; type adapters render only applicable fields; clearly separate bedrooms (subspaces) from physical Unit.
 **P02-06 / Wizard: media & description**: category photos upload placeholders, reorder, set cover, photo-only valid; optional YouTube link, select up to 3 highlights and editable suggested description, preserved on Back.
-**P02-07 / Wizard: location and bulk numbers**: saved location chooses auto if unique; generate N/select range/manually enter; nonconsecutive preview as chips/list; exact physical Unit count, prefix and duplicate warnings; "Skip taken numbers" option only with exact preview and confirmation.
+**P02-07 / Guided Unit Entry**: one real Unit Number input with saved Category and Location; Save & Add Next validates/saves ONE draft Unit, keeps context, clears number only. Saved Unit list with precise count, Edit/Remove draft and duplicate/quota errors; final Save & Review. No range, count generator or mass-create button.
 **P02-08 / Wizard: details and pricing**: category nightly base rate, unit overrides only when expanded; operational state; policy inheritance. Avoid 40 identical per-unit forms.
 **P02-09 / Wizard: review/create**: show actual category, location path and exact unit IDs, count and derived states, Save Draft vs Create; successful return to P02-03 with "Add another category" and "Continue to Bookings".
  
@@ -22,10 +22,10 @@ Create shared "Type Card", "Location Node", "Category Summary", "Bed Layout", "G
 [Room](02A-ROOM.md), [Cottage](02B-COTTAGE.md), [Villa](02C-VILLA.md), [Apartment](02D-APARTMENT.md). Review Room first as baseline, then adapt three variants; mixed property can enable multiple types.
 
 ## Required interactions
-Accept/Customize preset, create location, existing category select, show/hide conditional fields, add/remove number chips, reject duplicate, show capacity warning, bulk preview, Back/Continue persistence, Save Draft, success summary. Stable CTA spots; no backend claims.
+Accept/Customize preset, create location, existing category select, show/hide conditional fields, add/remove number chips, reject duplicate, show capacity warning, individually saved Unit list, Back/Continue persistence, Save Draft, success summary. Stable CTA spots; no backend claims.
 
 ## Demo & error state
-Deluxe Twin on Main Building/Floor 1; select 101,103,105 = exactly 3 physical Units. Try 103 again -> inline duplicate error, do not pretend overwrite. Another owner property location must never appear. All media optional except where later channel-specific publishing rule requires it.
+Deluxe Twin on Main Building/Floor 1; Save 101, then 103, then 105 individually = exactly 3 draft Units. Try 103 again -> inline duplicate error, do not pretend overwrite. Another owner property location must never appear. All media optional except where later channel-specific publishing rule requires it.
 
 ## Completion
 Common shell + P02-01..09 interactive flow before any type-specific independent style exploration. Do NOT rebuild login/plan/HRM inside this packet.

@@ -4,6 +4,9 @@
 ## First read
 [MASTER FIGMA MAKE PROMPT](00-BASE-SYSTEM-PROMPT.md) + [V4 UI Foundation](../07-UI-FOUNDATION.md) + [Screen Registry](../06-SCREEN-REGISTRY.md).
 
+## Screenshot visual source of truth
+Attach the 3 user-provided BinGi Starter, Business and Ultra dashboard screenshots to Figma Make. Follow [07 Screenshot Visual System](07-SCREENSHOT-VISUAL-SYSTEM.md) and [08 First Design Batch](08-FIRST-DESIGN-BATCH.md). Follow [Guided Unit Registration](../13-GUIDED-UNIT-REGISTRATION.md): no bulk creation during onboarding.
+
 ## Recommended execution order
 1. [01 — Property & Plan](01-PROPERTY-PLAN.md): registration, property identity, four type choice, preliminary plan.
 2. [02 — Accommodation Common Shell](02-ACCOMMODATION-SHELL.md): reusable wizard + location/category/unit/gallery components.
@@ -21,7 +24,7 @@ Copy **00 base prompt** into the design task as the design rules, append ONE pac
 
 ## Review order / rules
 - User wants one-by-one review; **Room** first, then Cottage, Villa, Apartment. The first time, approve foundation shell then Room screens; only then duplicate/adapt templates.
-- Frame names: "P02-07 / Room / Bulk Units / Valid", etc.
+- Frame names: "P02-07 / Room / Guided Unit Entry / Valid", etc.
 - Use realistic demo property data without real customer NID, trade license, personal address, payment details or copyrighted Airbnb layouts.
 - The 6 owner sections, common 5-stage accommodation wizard, current pricing and approval contract come from V4 docs, NOT the earlier loose screenshots.
 - If a commercial rule is unresolved, put it in a visible design note and use a reversible example, not a silently finalized price or promise.
