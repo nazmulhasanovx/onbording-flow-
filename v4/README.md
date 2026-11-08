@@ -20,7 +20,8 @@ Version: V4.0 review draft | Date: 2026-11-08 | Status: PROPOSED / NOT IMPLEMENT
 14. [13 GUIDED UNIT REGISTRATION](13-GUIDED-UNIT-REGISTRATION.md): latest owner decision—no bulk Unit Creation in onboarding.
 15. [14 COMPLETE FIGMA SCOPE](14-FIGMA-COMPLETE-SCOPE.md): 36 unique screens and 14 sequenced Make prompts.
 16. [15 APPEARANCE SETTINGS](15-APPEARANCE-SETTINGS.md): 1 screen, 6 shared controls.
-17. [Figma Make Work Packets](figma/README.md): copy-ready prompts; ONE batch at a time.
+17. [16 COMPLETE OWNER ONBOARDING MASTER FLOW](16-COMPLETE-OWNER-ONBOARDING-MASTER-FLOW.md): full Registration → Property Setup → Accommodation → Bookings → Operations → Payments/Website → Billing/KYC → BinGi Approval → Dashboard text diagram.
+18. [Figma Make Work Packets](figma/README.md): copy-ready prompts; ONE batch at a time.
 
 ## Status and source-of-truth rules
 - **User-decided direction:** One account, independent property onboarding; four primary accommodation choices; complete relevant configuration before BinGi approval; plan-based access; custom room quantity, minimum 10; latest per-room rates; current fee-free promotions.
