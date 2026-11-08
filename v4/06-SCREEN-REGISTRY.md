@@ -1,7 +1,7 @@
 # 06 — Stable UI Screen Registry / Navigation Contract
 Status: V4 proposed layout inventory. IDs are stable across Figma designs, QA and development; do not renumber approved IDs.
 
-**6 owner-facing sections**, approximately **29 core view templates**, plus type-specific variants, drawers and review states; **not** 29 separate disconnected dashboards. Reuse a single Wizard Shell and components.
+**6 owner-facing sections**, **35 named view IDs**, plus type-specific variants, drawers and review states; **not** 29 separate disconnected dashboards. Reuse a single Wizard Shell and components.
 
 | ID | Screen name / intention | Section / Figma batch |
 |---|---|---|

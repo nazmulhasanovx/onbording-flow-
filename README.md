@@ -1,4 +1,4 @@
-# BinGi HMS — Property-Wise Onboarding V3 (Review Draft)
+> **CURRENT REVIEW WORKSPACE (2026-11-08):** [BinGi HMS Onboarding V4 Master Plan](v4/README.md) and [Figma Make Work Packets](v4/figma/README.md). The root 01–05 files below are earlier review drafts kept as history. V4 is the new organized working handoff, not a production deployment.\n\n# BinGi HMS — Property-Wise Onboarding V3 (Review Draft)
 
 **Date:** 2026-11-08  
 **Status:** DRAFT FOR PRODUCT REVIEW — not approved, not implemented.  
