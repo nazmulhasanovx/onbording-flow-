@@ -11,7 +11,7 @@ P02-01 / Cottage / Preset Zone>Optional Block
  -> P02-04 / Cottage / choose existing or create "Garden Family Cottage"
  -> P02-05 / Cottage / bedrooms, beds, bathrooms, internal levels optional
  -> P02-06 / Cottage / category gallery, Garden View highlight, editable description
- -> P02-07 / Cottage / Zone Garden / no Block / choose C01,C03
+ -> P02-07 / Cottage / Garden Zone / no Block / Save C01 then Save C03 individually
  -> P02-08 / Cottage / nightly whole-Cottage rate and optional notes
  -> P02-09 / Cottage / EXACT 2 Cottage Units -> Create
  -> P02-03 / mixed Accommodation workspace
@@ -22,7 +22,7 @@ P02-01 / Cottage / Preset Zone>Optional Block
 - Optional "Does your property use Blocks?" No -> no Block dropdown; Yes -> choose existing Block or add within zone.
 - Numbering C01,C03 is valid; G-C01 or A-C01 optional configured prefix for collision safety, not mandatory.
 - Bedrooms do not increase subscription inventory count.
-- Returning flow: Cottage -> existing Garden Family Cottage -> saved Garden Zone -> choose C05,C06 -> review/create; no repeated gallery/rate/bed questions.
+- Returning flow: Cottage -> existing Garden Family Cottage -> saved Garden Zone -> Save C05 then C06 -> review; no repeated gallery/rate/bed questions.
 - Category photo and optional video can be inherited; unit overrides are in advanced collapsible panel.
 
 ## Test state
