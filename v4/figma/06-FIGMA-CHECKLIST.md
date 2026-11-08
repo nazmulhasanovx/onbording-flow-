@@ -5,6 +5,7 @@ Use after EACH packet, not only at the end. The owner wants one-by-one review.
 - All packet-required screen IDs exist, correctly titled and linked from predecessor/successor.
 - One clickable happy path; at least one error/correction path; no dead Back/Continue/Save/Add/Review controls.
 - Same shared Wizard/Onboarding Shell, footer CTA position, input spacing and icon placement.
+- No Bulk Unit Creation: owner explicitly saves one real Unit at a time; Category/Location persist, exact saved list appears.
 - No duplicate full dashboard per accommodation type; variants share components and consistent data model.
 
 ## 2. Key scenario replay
