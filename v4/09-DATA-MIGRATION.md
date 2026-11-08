@@ -27,7 +27,7 @@ One Account can have multiple Property memberships; a Property can have multiple
 
 ## Important implementation constraints
 - Data scoping: every property-owned read/write checks authenticated user property membership and server authorization. Client-supplied property_id is never trusted alone.
-- Stable internal IDs vs display names/numbering; unique normalized display Unit code within property (DB constraint, transaction-safe bulk).
+- Stable internal IDs vs display names/numbering; unique normalized display Unit code within property (DB constraint, transaction-safe idempotent single-Unit draft registration).
 - Save mutable configuration as versioned records; already booked inventory is preserved, no silent cascade after changing a building name or numbering policy.
 - Reservation allocation conflicts must block overlapping bookings and maintenance for same physical sellable unit; proper transaction isolation.
 - Category photos and optional YouTube tour inherited by Unit with explicit replace/hide override; validate hosted content.
