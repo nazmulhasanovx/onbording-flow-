@@ -1,7 +1,7 @@
 # 05 — BinGi Plan-Based Per-Unit Pricing, Promotions & Training (Draft V2)
 
 **Date:** 2026-11-08
-**Status:** USER-PROVIDED LATEST WORKING PRICING, DRAFT FOR REVIEW. Not deployed and not a legal offer.  
+**Status:** USER-PROVIDED LATEST WORKING PRICING + PROMOTIONAL MODULE RULES, DRAFT FOR REVIEW. Not deployed and not a legal offer.  
 **Supersedes for new onboarding design:** earlier fixed room-package tier amounts (Starter 10/20/30, etc.). Preserve any accepted customer quotes and existing invoices independently.
 
 ## A. New subscription model
@@ -47,11 +47,57 @@ Example custom quantity 15 rooms: Starter = ৳450/month; Business = ৳750/mont
 ## B. Existing commissions and plan features (from previous user policy; verify alongside new rates)
 
 - Starter: core room/accommodation management, online and offline bookings, website management, limited themes, domain management; marketplace 12%, website bookings 1.5%, walk-in 0%.
-- Business: Starter core plus housekeeping, meals/restaurant, expense, Other Services, QR food orders, menu limit 20 (previous commercial matrix); marketplace 8%, website 1%, walk-in 0%. **User's latest note:** 'restaurant currently free' — do not add an unspecified restaurant fee while promotion applies.
-- Ultra: Business-based broader advanced operations, HRM, Inventory, 500 menu capacity and unlimited website themes from previous matrix; marketplace 4%, website 0.5%, walk-in 0%. **User's latest note:** 'restaurant management limited' — definition/cap and its relation to the Business free restaurant promotion must be explicitly reviewed; do NOT invent or assume unlimited entitlement.
+- Business: Starter core plus housekeeping, meals/restaurant, expense, Other Services, QR food orders, menu limit 20 (previous commercial matrix); marketplace 8%, website 1%, walk-in 0%. Restaurant & Bar Management **currently has no additional module fee for eligible/entitled properties**; precise Bar entitlement/scope still requires confirmation.
+- Ultra: Business-based broader advanced operations, HRM, Inventory, 500 menu capacity and unlimited website themes from previous matrix; marketplace 4%, website 0.5%, walk-in 0%. Restaurant & Bar Management **currently has no additional module fee within verified plan entitlements**, but the user's 'Ultra restaurant management limited' statement is not yet defined; do NOT claim unlimited features.
 - Plan-to-feature permissions are enforced on the SERVER by active entitlement/feature flags. Do not merely hide modules in the sidebar.
 - **Capacity for all four priority accommodation types still needs commercial confirmation.** Recommended consistent interpretation: one actual physical Room / Cottage / Villa / whole Apartment = one billable Unit. Bedrooms within Villa/Cottage/Apartment are never counted separately. If commercial labeling remains 'room', display explanatory text '1 physical accommodation unit = 1 room for plan capacity.' This interpretation is proposed, **not yet locked by the user**.
 - Dormitory bed billing policy remains open; Other / Custom deferred.
+
+## B1. Website Management + Restaurant & Bar Management — Currently Free, no future billing surprises
+
+**Latest user instruction (2026-11-08):** `Website Management — currently free`; `Restaurant & Bar Management — currently free`. Treat these as **no separate incremental module/service charge at present**, NOT a promise that a customer automatically receives every module on every plan or that third-party costs are waived. This section must be included in the customer-facing offer, onboarding order summary, Billing screen and saved agreement, after final policy approval.
+
+| Service / module | Present additional module fee | Eligibility / limitation |
+| --- | --- | --- |
+| Website Management | **৳0 — currently free** | Website management is previously listed in Starter/Business/Ultra; plan-specific themes/domain capabilities still apply. |
+| Restaurant Management | **৳0 — currently free** | Only where the customer's active plan or specific contract enables Restaurant. Exact Business/Ultra limits require a final feature matrix. |
+| Bar Management | **৳0 — currently free** | Bar access and scope per plan **not yet specified**; do not automatically enable it for Starter/Business/Ultra without a plan entitlement decision. |
+
+**These are module-fee statements only.** They do **not** waive the paid room/unit subscription, marketplace/website booking commissions, online payment gateway/provider charges, purchased domain/renewal fees, premium development or custom integration, onboarding/onsite training, approved travel, or other third-party costs. Any extra fee must be separately itemized, not implied by 'Free Website Management' or 'Free Restaurant & Bar'. Distinguish **website management software access** from **website setup, custom web development, hosting and domain costs**; the inclusions/exclusions require an explicit written scope.
+
+### Dispute-prevention commercial rules (proposed contractual policy)
+
+1. **Show exactly what's free:** On Plan Comparison + Final Checkout display `Included in your plan / currently no extra module fee`, with exact enabled features and limitations. Don't show a 'free' restaurant/bar module that the selected plan doesn't permit.
+2. **Do not use vague 'free forever':** `Currently free` is a current promotional pricing status. **No offer expiry is confirmed**. Do not invent an expiration date, strike-through 'standard price' or fee amount for these two modules.
+3. **Accepted-term protection:** Any property that confirms a monthly, 6-month or 12-month order retains the **documented module access, included services and accepted charges for the entire paid/committed term**, subject to explicit published service terms and applicable law. No retroactive charge or removal of paid-for access midterm merely due to a future promotion change.
+4. **Future fee changes:** Before changing a currently free module to a paid extra, provide advance written notice (in-app + email where deliverable), clear future price, effective date, impacted plan/properties, alternatives and an **explicit opt-in/contract renewal agreement**. **Never start automatic extra-module billing without affirmative customer acceptance.** A 30-day minimum notice could be a useful policy, but is **not yet approved**.
+5. **Declining a future paid add-on:** Customer may decline the newly priced optional add-on without a hidden charge. If a module was expressly included as a paid plan feature, do not silently remove it; honor the accepted commitment or negotiate a separately agreed plan change with fair transition/data portability options.
+6. **Audit and quote snapshot:** Store `offer_version`, `plan_version`, `property_id`, `included_modules`, `module_fee=0`, `promo_status`, `effective_from/to` if actually defined, and `customer_acceptance_timestamp` on the accepted order. Preserve original approved invoices, promotions and communications.
+7. **Zero-charge display:** Show a line such as `Website Management — Included (currently ৳0 extra)` and `Restaurant & Bar Management — ৳0 extra (when included in your plan)`. Do not place an undisclosed module charge in renewal invoices.
+8. **Approval / payment / publishing gates remain separate:** Free module fees do not bypass owner verification, subscription payment, plan entitlement, domain rights, channel go-live readiness or BinGi Team property approval.
+9. **Staff / scope safeguards:** Restaurant & Bar can have separate menu, orders, POS, inventory, taxes or licensing functionality; never imply those all exist or are free unless scope is formally defined. Bar operations must follow applicable local legal requirements and age restrictions where relevant. No unsupported functionality is promised.
+
+### Owner-facing recommended offer text (draft; not final legal terms)
+
+> **Website Management:** Included in eligible BinGi plans with **no additional module management charge at present**. Available themes, domain features and any third-party costs depend on your selected plan and agreed service scope.
+>
+> **Restaurant & Bar Management:** **Currently no additional module management charge** for eligible plans/properties. Available functionality and usage limits depend on the confirmed feature entitlements of your subscription.
+>
+> We will not add new module charges automatically to an existing accepted subscription. Any future optional paid service will be disclosed in advance with its price and terms and will require your agreement before billing. Existing agreed plan benefits and charges remain protected for the accepted term.
+
+### Data fields and statuses
+
+```text
+Property + Active Plan Entitlements
+ -> Is Website Management included? yes/no
+ -> Is Restaurant Management included? yes/no + feature limits
+ -> Is Bar Management included? yes/no + feature limits (UNDECIDED)
+ -> Current optional module charge: 0 when eligible and active
+ -> Promotion metadata: no expiry/standard price invented
+ -> Customer Quote/Invoice: explicit included/free line items
+ -> Future add-on price proposal -> notification -> affirmative acceptance
+ -> Activation on agreed effective date, not retroactively
+```
 
 ## C. Activation fee — Business and Ultra only
 
@@ -82,6 +128,8 @@ The waived ৳29,500 may be displayed as 'Standard ৳29,500; promotional fee �
 PROPERTY PROFILE CREATED
   -> CHOOSE PLAN [Starter/Business/Ultra]
        -> display plan module matrix and access restrictions
+       -> show Website Management included/no extra module fee (current)
+       -> show Restaurant & Bar Management currently fee-free ONLY IF entitled
        -> select custom number of physical rooms/units: min 10
        -> review exact unit-count preview and occupancy inventory
        -> choose 1 / 6 / 12 month subscription cycle
@@ -99,6 +147,8 @@ PROPERTY PROFILE CREATED
        -> Subscription cycle discount
        -> Standard activation fee / current waiver
        -> Standard training fee / applicable promo/discount
+       -> Website / Restaurant / Bar module fee line items = ৳0 if eligible
+       -> Clear exclusions (booking commissions, domain/provider costs, custom services)
        -> Onsite charge and disclosed obligations
        -> Other approved charges and taxes
        -> GRAND TOTAL; no hidden charge
@@ -121,7 +171,8 @@ PROPERTY PROFILE CREATED
 - Activation standard fee per plan and active promotion eligibility/percentage/amount, effective range and expiration.
 - Remote training price per shift, training-promotion eligibility/quantity limits, optional discounts, trainer assignment and service status.
 - Onsite price, property-provided meals/stay requirement and any separately approved expense policies.
-- Features/menu/theme/restaurant/HRM entitlements, custom exceptions by property and subscription version.
+- Features/menu/theme/website/restaurant/bar/HRM entitlements, custom exceptions by property and subscription version.
+- Separate module fee and active promotion fields, eligibility, customer offer snapshots, renewal notice and affirmative opt-in for later paid optional add-ons.
 - Audit who changed price/discount/feature, when, old/new values; never rewrite accepted invoices or offers.
 
 ## G. Test / QA cases
@@ -138,6 +189,10 @@ PROPERTY PROFILE CREATED
 10. Discounts on subscription never discount activation/onsite fees without explicit rules.
 11. Paid vs property approved vs training completed vs website published are distinct statuses.
 12. Dynamic plan changes correctly update entitlements but never delete physical unit data or active reservations.
+13. Eligible plan: Website Management appears as currently ৳0 additional module fee; ineligible module never appears as free access.
+14. Restaurant & Bar fee currently ৳0 only for entitled features; test future pricing toggle cannot back-bill existing accepted orders.
+15. Customer offered a future paid add-on and declines: no new billing, no retroactive invoice, no unexpected midterm removal of contractually included features.
+16. Quoted free module line items, limits, price/offer version and customer acceptance are preserved in audit trail.
 
 ## H. Pending approval / ambiguities
 
@@ -148,6 +203,9 @@ PROPERTY PROFILE CREATED
 5. Onsite: per-property/per-visit basis, number of training days, travel expense treatment and actual trainer count not specified.
 6. Clarify timing of subscription charge, first payment and trial (if any), plus refund/cancellation.
 7. Confirm plan module scope, especially Staff Basic Access vs Full HRM and Finance/Cashbox.
-8. Update any existing pricing pages, quotes and onboarding UI only AFTER this draft is reviewed and approved.
+8. Confirm the precise Website Management free scope versus third-party domain/hosting and custom setup costs.
+9. Confirm Restaurant and Bar entitlements by plan; Bar Management has not been explicitly assigned to a plan, and Ultra Restaurant limits remain undefined.
+10. Confirm whether future paid module changes require opt-in (recommended), advance notice period (30 days proposed but unapproved), and grandfathering/renewal protections in finalized customer terms.
+11. Update existing pricing pages, quotes and onboarding UI only AFTER this draft is reviewed and approved.
 
 **Sources of truth:** User's new 2026-11-08 per-room pricing proposal, earlier plan feature/commission matrix, current [BinGi onboarding review index](README.md), [Accommodation architecture](https://github.com/nazmulhasanovx/Room-Accomodation-), [UI Foundation](https://github.com/nazmulhasanovx/BINGI-FOUNDATION-UI-and-UX). No claim of live system implementation.
