@@ -9,7 +9,7 @@ Read V4 00–11; resolve O-01/O-02 billing units, O-03/O-04 features, O-09 payme
 AUTH-01, OWN-00, P01-01..05. Outcome: create Property Draft, relevant four-type selection and preliminary subscription plan.
 
 **Batch 2: Core Accommodation System** (highest priority)
-P02-01..09. First build Room entire happy/duplicate/error path, review and lock common UI. Then Cottage, Villa, Apartment as variants using SAME components, do not build four independent dashboards. Mixed-property preview and bulk IDs validated.
+P02-01..09. First build Room entire happy/duplicate/error path, review and lock common UI. Then Cottage, Villa, Apartment as variants using SAME components, do not build four independent dashboards. Mixed-property preview and individually saved actual Unit Numbers validated; no bulk generator.
 
 **Batch 3: Booking & Plan Operations**
 P03-01..03, P04-01..03. Rate inventory, booking import/conflict, plan-entitled modules, staff access.
@@ -31,7 +31,7 @@ WAIT-01, PREV-01, HMS-01, ADM-01..03. Distinct approval/payment/channel status; 
 ## Implementation phases AFTER Figma approval
 1. Plan/entitlement, tenant authorization, property drafts and audit data foundations.
 2. Location hierarchy/category/unit database with safe migration from existing Room records.
-3. API validation, bulk ID creation, booking conflict engine and date-based availability.
+3. API validation, individual draft Unit saves, booking conflict engine and date-based availability.
 4. Subscription quote acceptance, invoice/payment, training service orders and approval state machines.
 5. Website and marketplace publish readiness; permitted integrations.
 6. Comprehensive QA, secure staging, migration/backfill, feature flag, rollback and monitored rollout.
