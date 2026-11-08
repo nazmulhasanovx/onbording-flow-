@@ -13,6 +13,10 @@
 
 **Review order:** Room → Cottage → Villa → Apartment. Keep each as DRAFT until individually reviewed and explicitly approved.
 
+## Latest pricing and service policy — separate review draft
+
+- [05-PRICING-PLAN-AND-TRAINING-V2-DRAFT.md](05-PRICING-PLAN-AND-TRAINING-V2-DRAFT.md) — revised monthly per-room subscription (custom quantity from 10), 6-/12-month discounts, Business/Ultra activation waiver, remote per-shift training promotion, onsite training and open commercial decisions. **This latest working pricing supersedes older tier pricing for new onboarding planning only; not approved for production or retroactive invoices.**
+
 ## Essential distinction
 
 - **Property Type:** Hotel, Resort, Guest House, Serviced Apartment, etc.
