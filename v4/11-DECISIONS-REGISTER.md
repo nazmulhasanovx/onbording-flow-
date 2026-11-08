@@ -8,7 +8,7 @@ Legend: **DECIDED** = explicitly stated by owner or previously approved architec
 |---|---|---|
 | D-01 | Property-specific onboarding, owner sees only own authorized property | DECIDED |
 | D-02 | Room, Cottage, Villa, Apartment are primary priority; Other/Custom deferred | DECIDED |
-| D-03 | One-time config, saved locations, category defaults, bulk numbering incl nonconsecutive | DECIDED in Accommodation architecture |
+| D-03 | One-time config, saved locations, category defaults, guided individually saved Unit Numbers incl nonconsecutive | DECIDED in Accommodation architecture |
 | D-04 | 80–90% applicable configuration before BinGi approval, full HMS only after property approval | DECIDED goal |
 | D-05 | Plan-wise software module access and per-room custom quantity min 10 | DECIDED |
 | D-06 | Monthly rate Starter 30, Business 50, Ultra 116 BDT per room | DECIDED latest pricing |
@@ -19,6 +19,8 @@ Legend: **DECIDED** = explicitly stated by owner or previously approved architec
 | D-11 | Website Management and Restaurant & Bar Management currently no additional module fee | DECIDED fees only, not automatic entitlement |
 | D-12 | Shared one 5-stage accommodation wizard; dynamic Rooms/Accommodations label | DECIDED in prior accommodation architecture |
 | D-13 | Public website/marketplace go-live separate from HMS approval | DECIDED product direction |
+| D-14 | No automatic bulk Unit Creation in onboarding; owner uses Save & Add Next to register real physical Units while repeating no Category/Location fields | DECIDED latest owner instruction |
+| D-15 | Keep BinGi Starter/Business/Ultra dashboard screenshot appearance as Figma Make visual foundation | DECIDED latest owner instruction |
 
 ## Recommended changes needing owner approval
 | ID | Decision | Reason |
