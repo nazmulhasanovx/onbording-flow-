@@ -1,7 +1,7 @@
 # 06 — Stable UI Screen Registry / Navigation Contract
 Status: V4 proposed layout inventory. IDs are stable across Figma designs, QA and development; do not renumber approved IDs.
 
-**6 owner-facing sections**, **35 named view IDs**, plus type-specific variants, drawers and review states; **not** 35 separate disconnected dashboards. Reuse a single Wizard Shell and components.
+**6 owner-facing sections**, **36 named view IDs**, plus type-specific variants, drawers and review states; **not** 36 separate disconnected dashboards. Reuse a single Wizard Shell and components.
 
 | ID | Screen name / intention | Section / Figma batch |
 |---|---|---|
@@ -36,12 +36,15 @@ Status: V4 proposed layout inventory. IDs are stable across Figma designs, QA an
 | P06-04 | Readiness checklist + submit confirmation | Section 6 / Batch 4 |
 | WAIT-01 | Pending, hold, correction & resubmit | Approval / Batch 5 |
 | PREV-01 | Property read-only dashboard preview | Approval / Batch 5 |
-| HMS-01 | Activated plan-aware dashboard template | After approval / Batch 5 |
+| HMS-01 | Activated plan-aware dashboard template (Starter/Business/Ultra variants) | After approval / Prompt 13 |
+| APP-01 | Global Appearance Settings (six controls) | After approval / Prompt 01 foundation, linked from Dashboard |
 | ADM-01 | Super Admin property review queue/detail | Admin / Batch 5 |
 | ADM-02 | Plan prices, promotions, entitlement controls | Admin / Batch 5 |
 | ADM-03 | Setup/training service order management | Admin / Batch 5 |
 
-**Numbering correction:** The registry contains 35 named view IDs including account, approval and admin; actual required designs reuse templates and may differ by state. Do NOT infer workload simply by multiplying accommodation types × wizard screens. Room/Cottage/Villa/Apartment share P02-04–09 with conditional fields.
+**Numbering correction:** The registry contains 36 named view IDs including account, approval and admin; actual required designs reuse templates and may differ by state. Do NOT infer workload simply by multiplying accommodation types × wizard screens. Room/Cottage/Villa/Apartment share P02-04–09 with conditional fields.
+
+For the complete 14-prompt scope and counting rules, see [14 Full Figma Scope](14-FIGMA-COMPLETE-SCOPE.md). APP-01 is one reusable settings screen: no separate Appearance screen for each plan. Three plan dashboard variants remain HMS-01 (one unique template).
 
 ## Navigation
 Global shell: header [Back | property identity | Section x of 6 | Save & Exit]; progress; content; fixed bottom action area [Back, Save Draft, Continue/Review]. No duplicate top-right Continue on some screens. Section tree collapsible; each task always has one obvious primary CTA. After P02 inventory completion return to P02-03 rather than exiting entire onboarding.

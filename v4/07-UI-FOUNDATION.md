@@ -1,6 +1,8 @@
 # 07 — Figma & UI/UX Foundation Alignment
 Status: Proposed design instructions based on existing BINGI-FOUNDATION-UI-and-UX specs. Tokens are **proposed**, not proof of deployed UI.
 
+**Latest Figma Foundation source:** The user's uploaded F-01 design-token screenshot contains explicit values and supersedes approximate dashboard-derived sample values. See [Appearance & Token Registry](15-APPEARANCE-SETTINGS.md) for exact approved-looking screenshot values (pending live Figma variable inspection). The original Foundation UI repo values may differ: reconcile semantic names rather than silently changing the visual theme.
+
 ## Brand / Pearl Light
 - Logo accent: #FD413F; primary action: #C8232E; hover: #B11C29; pressed: #8F1520.
 - Canvas: #F6F7FB; surface: #FFFFFF; ink: #18202F; muted text: #5F697A; border: #DCE1EA; selected: #FFF0EE; focus: #2456B8.

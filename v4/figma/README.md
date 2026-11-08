@@ -7,6 +7,9 @@
 ## Screenshot visual source of truth
 Attach the 3 user-provided BinGi Starter, Business and Ultra dashboard screenshots to Figma Make. Follow [07 Screenshot Visual System](07-SCREENSHOT-VISUAL-SYSTEM.md) and [08 First Design Batch](08-FIRST-DESIGN-BATCH.md). Follow [Guided Unit Registration](../13-GUIDED-UNIT-REGISTRATION.md): no bulk creation during onboarding.
 
+## Complete screen/prompt budget
+Use [14-Prompt Full Series](prompt-series/README.md) with [Complete Screen Count](../14-FIGMA-COMPLETE-SCOPE.md) and [Appearance APP-01](../15-APPEARANCE-SETTINGS.md). Count: 36 unique screens = 33 owner + 3 Super Admin, and 14 prompts. Foundation screenshot F-01–F-07 tokens take priority over earlier estimated colors. Existing packets below are earlier working reference; prompt-series is the new ordered Figma Make handoff.
+
 ## Recommended execution order
 1. [01 — Property & Plan](01-PROPERTY-PLAN.md): registration, property identity, four type choice, preliminary plan.
 2. [02 — Accommodation Common Shell](02-ACCOMMODATION-SHELL.md): reusable wizard + location/category/unit/gallery components.

@@ -4,6 +4,8 @@ Status: planning, not timeline promise. Work in narrow batches, review before co
 ## Phase 0 — policy / design foundation
 Read V4 00–11; resolve O-01/O-02 billing units, O-03/O-04 features, O-09 payment activation or mark a prompt explicitly provisional. Create Pearl Light components, type styles, input/error/empty/loading/confirmation states and six-section onboarding shell. No production backend work implied.
 
+**Current Figma delivery budget:** [36 unique screens, 14 prompts](14-FIGMA-COMPLETE-SCOPE.md); 33 owner-facing, 3 admin. Existing Foundation F-01..F-07 reused; Appearance APP-01 is one screen with six controls. See [Current Prompt Series](figma/prompt-series/README.md). The batch order below is historical grouping; the numbered 14-prompt series is the precise handoff.
+
 ## Figma Make delivery order (one small review at a time)
 **Batch 1: Property & Preliminary Plan**
 AUTH-01, OWN-00, P01-01..05. Outcome: create Property Draft, relevant four-type selection and preliminary subscription plan.
