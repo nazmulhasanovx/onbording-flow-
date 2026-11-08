@@ -22,7 +22,7 @@ Save owner identity/account once; do not require new account per property.
 - Show recommended location strategy and numbering preview for each enabled type; owner only edits if different.
 - Location Setup reuses actual buildings/towers/floors/zones/blocks across categories.
 - Create or reuse Category with beds/occupancy/amenities/gallery/highlights, optional video, description, base rate.
-- Add exact physical units by manual, range, count or checkbox selection; preview duplicates, reserved codes, plan capacity and mixed inventory totals.
+- Guided real Unit registration: save one Unit Number per Save & Add Next, reusing saved Category and Location. Show exact saved Unit list, allow draft correction, and validate duplicates/capacity. Never auto-create a numbered range or quantity of virtual Units.
 - Save Draft / Finish & Add Another Category. Fast path for repeat add.
 - Before continuing require at least one real sellable category and configured physical unit; custom billing minimum 10 does NOT require 10 fabricated units.
 
