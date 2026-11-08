@@ -11,7 +11,7 @@ P02-01 / Apartment / Tower>Floor preset
  -> P02-04 / Apartment / New "Two Bedroom Apartment" category
  -> P02-05 / Apartment / bedrooms, beds, bathrooms; kitchen/living/balcony conditional
  -> P02-06 / Apartment / photo cover, Spacious highlight, editable description
- -> P02-07 / Apartment / Tower A Floor 1, select TA-101,TA-103
+ -> P02-07 / Apartment / Tower A Floor 1, Save TA-101 then Save TA-103 individually
  -> P02-08 / Apartment / whole-Apartment nightly rate, optional unit view
  -> P02-09 / Apartment / Review EXACT 2 physical Apartments -> Create
  -> P02-03 / Apartment inventory and type filter
@@ -26,4 +26,4 @@ P02-01 / Apartment / Tower>Floor preset
 - Apartment 201,203 or TA-201,TA-203 supported as nonconsecutive.
 - Conditional kitchen, balcony, living fields hidden when absent. Inside Apartment bedrooms are descriptive subspaces, not separately bookable.
 - Existing booked Apartment cannot be moved/re-identified without conflict review; no silent data loss.
-- Returning flow: Existing 2BR category -> Tower A/Floor 2 -> choose TA-201/TA-203 -> Review/Create.
+- Returning flow: Existing 2BR category -> Tower A/Floor 2 -> Save TA-201, then TA-203 individually -> Review.
