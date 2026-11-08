@@ -18,7 +18,7 @@ Status: V4 proposed layout inventory. IDs are stable across Figma designs, QA an
 | P02-04 | Wizard: Type + existing/new Category | Section 2 / Batch 2 |
 | P02-05 | Wizard: Category details/capacity/beds | Section 2 / Batch 2 |
 | P02-06 | Wizard: Category media, highlights & description | Section 2 / Batch 2 |
-| P02-07 | Wizard: Location + bulk unit IDs | Section 2 / Batch 2 |
+| P02-07 | Wizard: Guided Unit Entry — one actual Unit at a time | Section 2 / Batch 2 |
 | P02-08 | Wizard: Price/inheritance/exceptions | Section 2 / Batch 2 |
 | P02-09 | Wizard: Review/create + error/success | Section 2 / Batch 2 |
 | P03-01 | Rates and availability basics | Section 3 / Batch 3 |
