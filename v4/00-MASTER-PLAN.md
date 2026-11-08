@@ -18,7 +18,7 @@ ONE ACCOUNT / AUTHORIZED PROPERTIES
   -> CREATE NEW PROPERTY DRAFT
   -> 01 PROPERTY & PRELIMINARY PLAN
   -> 02 SMART ACCOMMODATIONS
-     [Room | Cottage | Villa | Apartment; one-time presets; category + bulk units]
+     [Room | Cottage | Villa | Apartment; one-time presets; category + guided actual Unit registration]
   -> 03 BOOKINGS & RATES
   -> 04 PLAN-AWARE OPERATIONS
   -> 05 DIGITAL PRESENCE & PAYMENTS
@@ -53,7 +53,7 @@ ONE ACCOUNT / AUTHORIZED PROPERTIES
 | 06 Review & Confirm | final commercial quote, verification, readiness, submit | exact required docs |
 
 ## Success criteria
-- First-time owner can configure 10 rooms using bulk add without entering the same category or property-wide settings 10 times.
+- First-time owner registers 10 real Rooms one by one with Save & Add Next without reentering Category, Building/Floor or Property Defaults. No bulk auto-creation.
 - Mixed property can manage Room/Cottage/Villa/Apartment without four isolated property onboarding accounts.
 - User cannot see/access unauthorized property records, even by guessed ID.
 - Only relevant critical setup blocks submission; optional polish remains a post-approval checklist.
